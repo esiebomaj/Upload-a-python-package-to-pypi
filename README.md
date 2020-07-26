@@ -62,6 +62,11 @@ site to confirm that your package was uploaded successfully
 * run `pip install your-package-name` to install the test package
 
 ### Contratulations :champagne:  :fireworks: :champagne: your package is live and anybody can use it by running `pip install your-package-name` on their machine
+<br>
+## contributing
+I will be happy to accept any contributions you might have to this guide
+do well to open an issue or even a PR 
 
 <br>
-<marque>Made with :heart: by JeremAIh</marque>
+<br>
+**_Made with :heart: by JeremAIh_**
