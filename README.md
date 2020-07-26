@@ -15,12 +15,22 @@ ensure your python packages and modules are arranged in the folder structure as 
 
 **Note** : your package should have a setup.py file, setup.cfg file, README.md file, and license.txt
 as shown in the image above
+<br>
 **Note** : the name of your package name must be **_unique_**
+<br>
 **Note** : the folder containing your python modules should have a __init__.py file
+<br>
 **note** your setup.py and setup.cfg files should look like this
 
 ![setup.py image](https://user-images.githubusercontent.com/57163971/88475580-4c5d1980-cf29-11ea-8d4e-9ef3ade50975.png)
+<br>
+setup.cfg
+<br>
+<br>
 ![setup.cfg image](https://user-images.githubusercontent.com/57163971/88475581-4d8e4680-cf29-11ea-83e8-de681853ff7f.png)
+<br>
+setup.py
+<br>
 
 
 ## Pypi accounts
@@ -40,7 +50,7 @@ You will need them moving forward
 	* this will prompt you for your testpypi username and password
 * after your file has been successfully uploaded you can login to the [test-pypi](https://test.pypi.org/) 
 site to confirm that your package was uploaded successfully
-* run `pip install --index-url https://test.pypi.org/simple/ distributions` to install the test package
+* run `pip install --index-url https://test.pypi.org/simple/ your_package_name` to install the test package
 
 
 ## Upload to main pypi site
